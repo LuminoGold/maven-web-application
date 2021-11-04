@@ -100,12 +100,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-releases/</url>
+	      <url>http://15.222.255.97:8081/repository/ebay-bts-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-snapshot/</url>
+	      <url>http://15.222.255.97:8081/repository/ebay-bts-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
