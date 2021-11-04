@@ -93,20 +93,22 @@
 		
 	</dependencies>
 	
+	
+	</dependencies>
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <urlhttp://15.222.255.97:8081/repository/ebay-bts-releases/></url>
+	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-releases/</url>
 	    </repository>
-	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://15.222.255.97:8081/repository/ebay-bts-snapshot/</url>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
+	
 	
 	<build>
 		<finalName>maven-web-app</finalName>
